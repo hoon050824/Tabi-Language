@@ -1,3 +1,5 @@
+// From https://github.com/yf-dev/syusuk/blob/master/main.js
+
 var it_bf_map = {
     '아': '>',
     '이': '<',
