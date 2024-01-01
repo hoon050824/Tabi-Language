@@ -2,13 +2,13 @@
 
 var it_bf_map = {
     '아': '>',
-    '이': '<',
-    '템': '+',
-    '의': '-',
-    '인': '.',
-    '벤': ',',
-    '토': '[',
-    '리': ']',
+    '라': '<',
+    '하': '+',
+    '시': '-',
+    '뿡': '.',
+    '빵': ',',
+    '타': '[',
+    '비': ']',
 };
 
 var bf_it_map = {};
@@ -58,7 +58,7 @@ function run(code) {
 }
 
 function it_to_bf(code) {
-    var re = /(?:아|이|템|의|인|벤|토|리)/gi;
+    var re = /(?:아|라|하|시|뿡|빵|타|비)/gi;
     var bf_code = '';
     while ((it_keywords = re.exec(code)) !== null) {
         var it_keyword = it_keywords[0];
